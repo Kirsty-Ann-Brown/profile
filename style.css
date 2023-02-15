@@ -1,0 +1,90 @@
+body {
+  background-color: ;
+  font-family: Arial, Helvetica, sans-serif ;
+  color:#2C3639 ;
+  font-size: 14px ;
+  line-height: 1.6 ;
+}
+
+h1{
+  color:#A27B5C;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 30px ;
+  line-height: 1.6 ;
+}
+
+h2{
+  color: #3F4E4F ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.6 ;
+  font-weight: bold
+}
+
+h3{
+  color: #DCD7C9 ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px ;
+  line-height: 1.6 ;
+}
+
+a{
+  color:#DCD7C9 ;
+  text-decoration: none
+}
+
+a:hover{
+  color:#A27B5C;
+  text-decoration: none
+}
+
+img{
+  border-radius: 50%
+}
+
+#profile-image{
+  width: 200px;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border: 1px solid lightgrey;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 20 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn{
+  background-color: #DCD7C9;
+  border: none;
+  color: #A27B5C;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover{
+  color: #DCD7C9;
+  background-color: #A27B5C
+}
