@@ -46,6 +46,10 @@ img{
   width: 200px;
 }
 
+#logo{
+  width: 75px;
+}
+
 .card {
   background: white;
   padding: 40px;
@@ -87,4 +91,22 @@ img{
 .btn:hover{
   color: #DCD7C9;
   background-color: #A27B5C
+}
+
+@media (max-width: 1500px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
 }
